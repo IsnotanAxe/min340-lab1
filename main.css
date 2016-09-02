@@ -1,0 +1,78 @@
+html {
+    background: #e6e9e9;
+    background-image: linear-gradient(270deg, rgb(230, 233, 233) 0%, rgb(216, 221, 221) 100%);
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    background: #fff;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+    color: #ccffff;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0 auto;
+    max-width: 60%;
+    padding: 2em 2em 4em;
+}
+
+h1 {
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: antiquewhite;
+}
+
+h2,
+h3,
+h4,
+h5 {
+    font-family: serif;
+    color: aqua;
+    line-height: 1.3;
+}
+
+h6 {
+    font-family: "Inconsolata", monospace;
+    color: beige;
+}
+
+h2 {
+    margin-top: 1.3em;
+}
+
+a {
+    color: #0083e8;
+    transition: all .5s;
+}
+
+a:hover {
+    background-color: black;
+    color: white;
+}
+
+b,
+strong {
+    font-weight: 600;
+}
+
+#picture {
+    background-image: url("movie.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    overflow: none;
+    position: relative;
+}
+
+#black {
+    background-color: rgba( 0, 0, 0, .6);
+    padding: 20px;
+    border-radius: 20px;
+    top: 0px;
+    -webkit-transform:translate3D (0, 0, 1);
+
+}
+
+#text {
+    overflow:none;
+    -webkit-transform: trasnlate3D (0, 0, 2);
+}
